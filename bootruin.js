@@ -1,10 +1,12 @@
+// Copy this entire code, use CodeMirror in windows 94 (https://windows94.ziad87.net/) and save this as "bootruin.js" in /a/boot. Then restart.
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 le._apps.memz = {
   categories: "Amusement",
-  name: "MEMZ Destructive",
+  name: "win95",
   icon: "/c/files/images/icons/pow.png",
   exec: function() {
     le._apps.reboot.exec = function(){
